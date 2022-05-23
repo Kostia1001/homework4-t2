@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul body {
+  background: white;
+}
+/* Header */
+.namaste {
+  display: flex;
+  justify-content: center;
+  height: 20vw;
+}
+.headtriple {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.whoweare {
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.hello {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #0ec8cb;
+}
+.perfomance {
+  padding-top: 20px;
+  width: 600px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #999999;
+}
+/* Main */
+
+.bodyfour {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  align-items: center;
+  height: 25vw;
+}
+.fourmiddle {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+.web {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: #f7f7f7;
+  border: 1px solid #ececec;
+  height: 380px;
+  width: 200px;
+}
+.web:hover {
+  background: #0ec8cb;
+  border: 1px solid #0ec8cb;
+}
+
+/* IMG */
+.img {
+  padding-bottom: 100px;
+  display: flex;
+  align-items: center;
+  width: 65px;
+  height: 65px;
+  justify-content: center;
+}
+.anchor {
+  background: url(img/anchor-1.svg) no-repeat center center;
+}
+
+.diamond {
+  margin-bottom: -30px;
+  background: url(img/diamond-1.svg) no-repeat center center;
+}
+.glasses {
+  background: url(img/glasses-1.svg) no-repeat center center;
+}
+.monik {
+  background: url(img/monitor-1.svg) no-repeat center center;
+}
+/* Hover */
+.web:hover .anchor {
+  background: url(img/anchor.svg) no-repeat center center;
+}
+.web:hover .diamond {
+  background: url(img/diamond.svg) no-repeat center center;
+}
+.web:hover .glasses {
+  background: url(img/glasses.svg) no-repeat center center;
+}
+.web:hover .monik {
+  background: url(img/monitor.svg) no-repeat center center;
+}
+/* Text */
+.textmiddle {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 30px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #1b1b1b;
+}
+.web:hover .textmiddle {
+  color: #ffffff;
+}
+.textbot {
+  padding-top: 30px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #777777;
+}
+.web:hover .textbot {
+  color: #ffffff;
+}
